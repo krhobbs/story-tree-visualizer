@@ -56,7 +56,7 @@ export const generateNodesAndEdges = (
     }
   }
 
-  console.log(totalNodes);
+  console.log(`Rendered ${totalNodes} nodes.`);
 
   const { nodes: positionedNodes, edges: positionedEdges } =
     positionNodesAsTree(nodes, edges);

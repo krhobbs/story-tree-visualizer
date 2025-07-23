@@ -2,7 +2,7 @@ export type StoryNodeID = string;
 
 export type StoryNodeData = {
   text: string;
-  speaker: number;
+  speaker: string;
   choices: StoryChoiceData[] | never[];
   checkpoint: boolean;
   nextNode?: StoryNodeID;
