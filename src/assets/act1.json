@@ -1,0 +1,3990 @@
+{
+  "act1_initializing_001": {
+    "text": "pinging...",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_initializing_002"
+  },
+  "act1_initializing_002": {
+    "text": "acquired signal",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_initializing_003"
+  },
+  "act1_initializing_003": {
+    "text": "status...connected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_001"
+  },
+  "act1_introductions_001": {
+    "text": "Ah —  What the hell?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_002"
+  },
+  "act1_introductions_002": {
+    "text": "Stupid thing.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Who is this?",
+        "shortText": "Who is this?",
+        "nextNode": "act1_introductions_003",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Whoa. Is this an actual person?",
+        "shortText": "Whoa.",
+        "nextNode": "act1_introductions_003",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_003": {
+    "text": "No way.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_004"
+  },
+  "act1_introductions_004": {
+    "text": "Is this thing receiving? Can you hear me?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I can read you. This is showing up on my computer. Who is this?",
+        "shortText": "Yeah. Who are you?",
+        "nextNode": "act1_introductions_005",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "I can read you. This is showing up on my computer. Who is this?",
+        "shortText": "Sort of... Are you real?",
+        "nextNode": "act1_introductions_005",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_005": {
+    "text": "This is... I can't believe it.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_006"
+  },
+  "act1_introductions_006": {
+    "text": "I thought I was out of anyone's range, but if it accepted a signal from you...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_007"
+  },
+  "act1_introductions_007": {
+    "text": "Okay. This is on your computer, you said? What computer?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Maybe you could tell me who you are first? I shouldn't even have connectivity on this thing.",
+        "shortText": "Maybe you could tell me who you are first?",
+        "nextNode": "act1_introductions_008",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Total stranger talking through my computer? I'm pretty sure my parents would disapprove of this type of scenario.",
+        "shortText": "Whoa, stranger danger.",
+        "nextNode": "act1_introductions_008",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_008": {
+    "text": "Fair enough. Let's trade that info.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_009"
+  },
+  "act1_introductions_009": {
+    "text": "I'm Prosper.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_010"
+  },
+  "act1_introductions_010": {
+    "text": "What are you seeing this on?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "An old cathode-ray tube computer. It's a project I pulled together from thrifted tech. Just tinkering. I can't even hitch it up to the internet, so I have no idea how I'm receiving you.",
+        "shortText": "An old computer.",
+        "nextNode": "act1_introductions_011",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "A dinosaur computer. It's a load of scrap I pulled together from old junk and thrift stroes. Just messing around. I can't even hitch it up to the internet, so I have no idea how I'm receiving you.",
+        "shortText": "A junky computer.",
+        "nextNode": "act1_introductions_011",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_011": {
+    "text": "Yeah, I'd like to know that too.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_012"
+  },
+  "act1_introductions_012": {
+    "text": "Well, you're speaking English. Where are you, regionally?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "The States.",
+        "shortText": "The States.",
+        "nextNode": "act1_introductions_013",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Earth.",
+        "shortText": "Earth.",
+        "nextNode": "act1_introductions_014",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_013": {
+    "text": "I'm not in the US. Greenland.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_015"
+  },
+  "act1_introductions_014": {
+    "text": "Wild. Me too. I'm pretty far north, in Greenland.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_015"
+  },
+  "act1_introductions_015": {
+    "text": "I suppose it's not so unbelievable that we're communicating somehow. That's what the chip was made for, after all.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_016"
+  },
+  "act1_introductions_016": {
+    "text": "What do I call you, then?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "My name is [].",
+        "shortText": "My name is...",
+        "nextNode": "act1_introductions_019",
+        "trust": 5,
+        "stress": 0
+      },
+      {
+        "text": "I'm pretty sure not providing personal info to strangers on the web is the first rule of the modern age.",
+        "shortText": "Nothing, thanks.",
+        "nextNode": "act1_introductions_017",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_017": {
+    "text": "You know me now, don't you?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "True. My name is [].",
+        "shortText": "True. My name is...",
+        "nextNode": "act1_introductions_019",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Is \"Prosper\" an honest given name?",
+        "shortText": "Do I, \"Prosper\"?",
+        "nextNode": "act1_introductions_018",
+        "trust": -5,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_018": {
+    "text": "Yes. It's exceptionally ironic, but it's mine. And yours is...",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "My name is [].",
+        "shortText": "Okay. My name is...",
+        "nextNode": "act1_introductions_019",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_019": {
+    "text": "Pleased to meet you, [].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_introductions_020"
+  },
+  "act1_introductions_020": {
+    "text": "I don't want to assume anything. What's your preferred pronoun?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "He",
+        "shortText": "He",
+        "nextNode": "act1_introductions_021",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "She",
+        "shortText": "She",
+        "nextNode": "act1_introductions_021",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "They",
+        "shortText": "They",
+        "nextNode": "act1_introductions_021",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_introductions_021": {
+    "text": "Got it. Good to know more than \"text tinning up my quiet space.\"",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Wait, you lost me. Do you see this as text, too? I'm typing.",
+        "shortText": "Wait, what?",
+        "nextNode": "act1_explanations_001",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Yeah, not a fan of that as a nickname. Do you see this as text, too? I'm typing.",
+        "shortText": "That's not a great nickname.",
+        "nextNode": "act1_explanations_001",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_001": {
+    "text": "You're connected to my chip somehow. It's a communicator in my head.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_002"
+  },
+  "act1_explanations_002": {
+    "text": "I don't hear or read you. It's sort of like...another train of thought.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_003"
+  },
+  "act1_explanations_003": {
+    "text": "You shouldn't be able to ping it. It's been dead for months.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Dead? What happened?",
+        "shortText": "Dead?",
+        "nextNode": "act1_explanations_004",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Okay. Wow. You have a chip in your head? How did that happen?",
+        "shortText": "A chip?",
+        "nextNode": "act1_explanations_009",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_004": {
+    "text": "To the chip?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Yeah. If you knew it was broken, why not fix it?",
+        "shortText": "Yeah.",
+        "nextNode": "act1_explanations_007",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "No, to you.",
+        "shortText": "To you.",
+        "nextNode": "act1_explanations_005",
+        "trust": 10,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_005": {
+    "text": "Oh. Well...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_006"
+  },
+  "act1_explanations_006": {
+    "text": "I got dinged up pretty badly, I guess. I'm fine now.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_007"
+  },
+  "act1_explanations_007": {
+    "text": "The chip isn't meant to be doing anything right now. That's why no one bothered repairing it. I guess now no one needs to.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "What else can the chip do?",
+        "shortText": "What else can the chip do?",
+        "nextNode": "act1_explanations_008",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Right. And why exactly do you have a chip in your head?",
+        "shortText": "Why exactly do you have a chip in your head.",
+        "nextNode": "act1_explanations_009",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_008": {
+    "text": "Let's call that a need-to-know situation.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_021"
+  },
+  "act1_explanations_009": {
+    "text": "It's a long story.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "You don't say...",
+        "shortText": "Well, what is it?",
+        "nextNode": "act1_explanations_010",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Uh, I bet it is. Was it: A) Seedy corporation, B) Aliens, or C) Cool futury tech?",
+        "shortText": "Uh, I bet. Can I guess?",
+        "nextNode": "act1_explanations_011",
+        "trust": -5,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_010": {
+    "text": "Look, you don't want the details, []. When I say \"long story,\" that implies brutal, uncomfortable, and dangerous to know.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay, sorry to pry. I don't get any backstory?",
+        "shortText": "Sorry.",
+        "nextNode": "act1_explanations_013",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "So, mystery guy. Can I ask what happened?",
+        "shortText": "So what happened?",
+        "nextNode": "act1_explanations_013",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_011": {
+    "text": "Look, you don't want the details, []. When I say \"long story,\" that implies brutal, uncomfortable, and dangerous to know.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay, sorry to pry. I don't get any backstory?",
+        "shortText": "Sorry.",
+        "nextNode": "act1_explanations_013",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Okay, fine. I'm going to assume \"all of the above,\" though.",
+        "shortText": "So, all of the above?",
+        "nextNode": "act1_explanations_012",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_012": {
+    "text": "You do that.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "So, mystery guy. Can I ask what happened?",
+        "shortText": "So what happened?",
+        "nextNode": "act1_explanations_017",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Well, can you at least give me a hint at what happened?",
+        "shortText": "Can I get a hint?",
+        "nextNode": "act1_explanations_017",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_013": {
+    "text": "It's a long story.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "You don't say...",
+        "shortText": "Well, what is it?",
+        "nextNode": "act1_explanations_014",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Uh, I bet it is. Was it: A) Seedy corporation, B) Aliens, or C) Cool futury tech?",
+        "shortText": "Uh, I bet. Can I guess?",
+        "nextNode": "act1_explanations_015",
+        "trust": -5,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_014": {
+    "text": "Look, you don't want the details, []. When I say \"long story,\" that implies brutal, uncomfortable, and dangerous to know.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay, sorry to pry. I don't get any backstory?",
+        "shortText": "Sorry.",
+        "nextNode": "act1_explanations_017",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "So, mystery guy. Can I ask what happened?",
+        "shortText": "So what happened?",
+        "nextNode": "act1_explanations_017",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_015": {
+    "text": "Look, you don't want the details, []. When I say \"long story,\" that implies brutal, uncomfortable, and dangerous to know.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay, sorry to pry. I don't get any backstory?",
+        "shortText": "Sorry.",
+        "nextNode": "act1_explanations_017",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Okay, fine. I'm going to assume \"all of the above,\" though.",
+        "shortText": "So, all of the above?",
+        "nextNode": "act1_explanations_016",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_016": {
+    "text": "You do that.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "So, mystery guy. You really won't tell me what happened?",
+        "shortText": "You really won't tell me what happened?",
+        "nextNode": "act1_explanations_017",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Look, I'm sorry for prying. It just seems important that I know what happened.",
+        "shortText": "Sorry. It just seems important to know what happened.",
+        "nextNode": "act1_explanations_017",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_017": {
+    "text": "To the chip?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Yeah. If you knew it was broken, why not fix it?",
+        "shortText": "Yeah.",
+        "nextNode": "act1_explanations_020",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "No, to you.",
+        "shortText": "To you.",
+        "nextNode": "act1_explanations_018",
+        "trust": 5,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_018": {
+    "text": "Oh. Well...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_019"
+  },
+  "act1_explanations_019": {
+    "text": "I got dinged up pretty badly. I'm fine now.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_020"
+  },
+  "act1_explanations_020": {
+    "text": "That's why no one bothered repairing it. I guess now no one needs to.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "What else can the chip do?",
+        "shortText": "What else can the chip do?",
+        "nextNode": "act1_explanations_008",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Just who might have repaired it?",
+        "shortText": "Who could fix it?",
+        "nextNode": "act1_explanations_008",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_021": {
+    "text": "Why were you tinkering with scrap?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I wanted to teach myself a little something about building tech. Starting way back when, with a cathode-ray tube computer.",
+        "shortText": "My passion.",
+        "nextNode": "act1_explanations_022",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "I get bored. I figured it would be neat to put one of those cathode-ray tube computers together.",
+        "shortText": "My hobby.",
+        "nextNode": "act1_explanations_023",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_022": {
+    "text": "Ambitious type, huh?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_024"
+  },
+  "act1_explanations_023": {
+    "text": "Tinkering for its own sake, then.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_024"
+  },
+  "act1_explanations_024": {
+    "text": "You sound like a lot of people I know.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Is that a good thing?",
+        "shortText": "Is that a good thing?",
+        "nextNode": "act1_explanations_025",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Does that mean we can be friends?",
+        "shortText": "Does that mean we can be friends?",
+        "nextNode": "act1_explanations_025",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_025": {
+    "text": "TBD.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I suppose I understand keeping things close to the vest. But where do we go from here?",
+        "shortText": "Fair enough.",
+        "nextNode": "act1_explanations_026",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "All this redacted info is really supporting the \"seedy corporation\" vibes, you know. Where do we go from here, then?",
+        "shortText": "Lame.",
+        "nextNode": "act1_explanations_026",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_026": {
+    "text": "What do you mean?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "We're mysteriously connected via an ancient computer and a crazy brain chip. I'd like to know why, but it doesn't seem like that's possible. So I don't see what else we can do here.",
+        "shortText": "This seems heavy.",
+        "nextNode": "act1_explanations_027",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "We're mysteriously connected via an ancient computer and a crazy brain chip. You're not being too helpful in connecting dots, so I don't see what else we can do here.",
+        "shortText": "You're being cagey.",
+        "nextNode": "act1_explanations_027",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_027": {
+    "text": "Am I that bad a conversationalist?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Not at all. This has been interesting, to say the least.",
+        "shortText": "It's not that.",
+        "nextNode": "act1_explanations_029",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "TBD.",
+        "shortText": "TBD.",
+        "nextNode": "act1_explanations_028",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_028": {
+    "text": "Ha, ha.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_029"
+  },
+  "act1_explanations_029": {
+    "text": "Okay. You could say...I'm in a bit of a bind.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Trouble? What can I do to help?",
+        "shortText": "Trouble?",
+        "nextNode": "act1_explanations_030",
+        "trust": 10,
+        "stress": 0
+      },
+      {
+        "text": "I sense a bad \"all tied up\" pun coming. Evil corporation/government agency? I knew it.",
+        "shortText": "All tied up, huh? I knew it.",
+        "nextNode": "act1_explanations_031",
+        "trust": -10,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_explanations_030": {
+    "text": "Thank you, []. That you're even willing to listen... It means a lot.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_request_001"
+  },
+  "act1_explanations_031": {
+    "text": "No, [], you don't know. And there's no reason you should.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_explanations_032"
+  },
+  "act1_explanations_032": {
+    "text": "Look, if you want to sign off, then sign off. I'm used to the silence.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Wait, I'm sorry. I don't want to sign off. So, the bind. Is it something I can help with?",
+        "shortText": "Wait! I'm sorry.",
+        "nextNode": "act1_request_001",
+        "trust": 5,
+        "stress": 0
+      },
+      {
+        "text": "I don't want to sign off. I want to know more. So, the bind. Is it something I can help with?",
+        "shortText": "Not yet.",
+        "nextNode": "act1_request_001",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_request_001": {
+    "text": "Maybe there is something you could do.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_request_002"
+  },
+  "act1_request_002": {
+    "text": "There's a message I need to deliver. It would be best if you didn't leave an electronic trail, so if you could write a letter to someone, I could rest easy.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_request_003"
+  },
+  "act1_request_003": {
+    "text": "So to speak.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I can do that! Why can't you, though?",
+        "shortText": "Of course.",
+        "nextNode": "act1_request_004",
+        "trust": 5,
+        "stress": 0
+      },
+      {
+        "text": "Snail mail, huh? If I remember how to send a letter, I will. Any reason you can't, though?",
+        "shortText": "I suppose.",
+        "nextNode": "act1_request_004",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_request_004": {
+    "text": "I would if I could.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_request_005"
+  },
+  "act1_request_005": {
+    "text": "Nothing I would manage to send would remain private.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "That's tough. I'll do what I can, but it won't really remain private this way, either.",
+        "shortText": "That's tough.",
+        "nextNode": "act1_request_006",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Well, if you want me to pen a letter for you old school, it's not going to be private anyway.",
+        "shortText": "It won't anyway...",
+        "nextNode": "act1_request_006",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_request_006": {
+    "text": "That is true...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_request_007"
+  },
+  "act1_request_007": {
+    "text": "I don't know if this is wise after all. For your own sake.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "What could happen?",
+        "shortText": "What could happen?",
+        "nextNode": "act1_reveal_001",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Let me worry about my own sake.",
+        "shortText": "Don't worry about me.",
+        "nextNode": "act1_reveal_004",
+        "trust": 10,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_reveal_001": {
+    "text": "I'm not sure.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_002"
+  },
+  "act1_reveal_002": {
+    "text": "It could be dangerous for you because...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_003"
+  },
+  "act1_reveal_003": {
+    "text": "Well, I suppose there's no hiding it anymore.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_005"
+  },
+  "act1_reveal_004": {
+    "text": "All right. If you're sure.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_005"
+  },
+  "act1_reveal_005": {
+    "text": "It's not as it seems, and there's a lot going on here I don't think you would understand.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_006"
+  },
+  "act1_reveal_006": {
+    "text": "But you should know that I'm in a prison. Of sorts.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Oh. Well. That's odd. Let me think.",
+        "shortText": "That's...odd.",
+        "nextNode": "act1_reveal_008",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "...",
+        "shortText": "...",
+        "nextNode": "act1_reveal_007",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_reveal_007": {
+    "text": "Did you just type ellipses?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I'm thinking.",
+        "shortText": "I'm thinking.",
+        "nextNode": "act1_reveal_008",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "......",
+        "shortText": "......",
+        "nextNode": "act1_reveal_008",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_reveal_008": {
+    "text": "By all means, take your time.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Did you do it? Whatever you're in for?",
+        "shortText": "Are you guilty?",
+        "nextNode": "act1_reveal_009",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "You have to realize I'm going to ask what you did to end up in prison.",
+        "shortText": "What are you in for?",
+        "nextNode": "act1_reveal_009",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_reveal_009": {
+    "text": "That's complicated.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_010"
+  },
+  "act1_reveal_010": {
+    "text": "I did what I thought was right. I didn't hurt anyone, and I definitely don't want you to get hurt, [].",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay. I guess you don't seem to have a reason to lie. I'll write this letter. But I won't promise to send it, if I think it would upset someone.",
+        "shortText": "I believe you.",
+        "nextNode": "act1_reveal_011",
+        "trust": 10,
+        "stress": 0
+      },
+      {
+        "text": "That's...pretty vague. I'll write this letter, Prosper. But I'm not promising to send it until I know more.",
+        "shortText": "That's suspicious.",
+        "nextNode": "act1_reveal_011",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_reveal_011": {
+    "text": "I suppose I can't ask for more. Thanks, [].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_012"
+  },
+  "act1_reveal_012": {
+    "text": "All I want to do is wish someone goodbye.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I've got paper and pen with me. Whenever you're ready.",
+        "shortText": "Go ahead.",
+        "nextNode": "act1_reveal_013",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Okay. Paper, pen. Let's go.",
+        "shortText": "Let's go.",
+        "nextNode": "act1_reveal_013",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_reveal_013": {
+    "text": "Thought-to-text won't be the most elegant method, but it's better than what I had before.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_014"
+  },
+  "act1_reveal_014": {
+    "text": "Which was nothing.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_015"
+  },
+  "act1_reveal_015": {
+    "text": "It will take me a minute to get this together.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Take your time.",
+        "shortText": "Take your time.",
+        "nextNode": "act1_reveal_016",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "I've got nowhere to be.",
+        "shortText": "I've got nowhere to be.",
+        "nextNode": "act1_reveal_016",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_reveal_016": {
+    "text": "Oh, no.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_017"
+  },
+  "act1_reveal_017": {
+    "text": "Damn it. [], I have to disconnect. I'll have to...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_reveal_018"
+  },
+  "act1_reveal_018": {
+    "text": "I don't know. Ping me again in a few hours.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Whoa, whoa. Are you okay?",
+        "shortText": "Are you okay?",
+        "nextNode": "act1_first_disconnect_001",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Whoa, whoa. What's going on?",
+        "shortText": "What's going on?",
+        "nextNode": "act1_first_disconnect_001",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_first_disconnect_001": {
+    "text": "no signal",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_disconnect_002"
+  },
+  "act1_first_disconnect_002": {
+    "text": "status...disconnected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_disconnect_003"
+  },
+  "act1_first_disconnect_003": {
+    "text": "shut down",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_disconnect_004"
+  },
+  "act1_first_disconnect_004": {
+    "text": "3",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_disconnect_005"
+  },
+  "act1_first_disconnect_005": {
+    "text": "2",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_disconnect_006"
+  },
+  "act1_first_disconnect_006": {
+    "text": "1",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_reconnect_001"
+  },
+  "act1_first_reconnect_001": {
+    "text": "pinging...",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_reconnect_002"
+  },
+  "act1_first_reconnect_002": {
+    "text": "acquired signal",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_first_reconnect_003"
+  },
+  "act1_first_reconnect_003": {
+    "text": "status...connected",
+    "speaker": 0,
+    "choices": [
+      {
+        "text": "Connected! Hello?? Prosper?",
+        "shortText": "Prosper?",
+        "nextNode": "act1_letter_001",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Finally! Prosper?",
+        "shortText": "About time!",
+        "nextNode": "act1_letter_001",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_001": {
+    "text": "[]?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_002"
+  },
+  "act1_letter_002": {
+    "text": "I wasn't sure I'd get the signal back.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "The computer freaked out and shut down. I reconnected as soon as I could. Are you okay?",
+        "shortText": "Are you okay?",
+        "nextNode": "act1_letter_003",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "The computer freaked out and shut down. I reconnected as soon as I could. What happened?",
+        "shortText": "What happened?",
+        "nextNode": "act1_letter_003",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_003": {
+    "text": "...",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Prosper?",
+        "shortText": "Prosper?",
+        "nextNode": "act1_letter_004",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Hello?",
+        "shortText": "Hello?",
+        "nextNode": "act1_letter_004",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_004": {
+    "text": "Sorry. I'm fine. Running...a little slow.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_005"
+  },
+  "act1_letter_005": {
+    "text": "How long has it been since we first spoke?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "It wasn't that long ago. A few hours passed.",
+        "shortText": "Hasn't been long.",
+        "nextNode": "act1_letter_006",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "It's been a few hours.",
+        "shortText": "A few hours.",
+        "nextNode": "act1_letter_006",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_006": {
+    "text": "Okay. Not as bad as I thought.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Should I be worried?",
+        "shortText": "Should I be worried?",
+        "nextNode": "act1_letter_007",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Party too hard?",
+        "shortText": "Party too hard?",
+        "nextNode": "act1_letter_008",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_007": {
+    "text": "No, I'm okay.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_009"
+  },
+  "act1_letter_008": {
+    "text": "Not exactly.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_009"
+  },
+  "act1_letter_009": {
+    "text": "Still willing to help me with that letter, []?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I am.",
+        "shortText": "Of course.",
+        "nextNode": "act1_letter_010",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Sure. Let's compose some correspondence.",
+        "shortText": "Sure.",
+        "nextNode": "act1_letter_010",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_010": {
+    "text": "Thanks, [].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_011"
+  },
+  "act1_letter_011": {
+    "text": "I didn't get the chance to put much thought into it, but maybe I don't need to.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_012"
+  },
+  "act1_letter_012": {
+    "text": "Okay. Grace.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_013"
+  },
+  "act1_letter_013": {
+    "text": "It's to Grace.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Go on.",
+        "shortText": "Go on.",
+        "nextNode": "act1_letter_014",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Got it.",
+        "shortText": "Got it.",
+        "nextNode": "act1_letter_014",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_014": {
+    "text": "Grace...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_015"
+  },
+  "act1_letter_015": {
+    "text": "First off, do not set out to find me.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_016"
+  },
+  "act1_letter_016": {
+    "text": "Don't mention Greenland, []. Or prison.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_017"
+  },
+  "act1_letter_017": {
+    "text": "Grace, everything ended in a rush after the Harlem bust. There wasn't anything you or I could do. TUR was prepared for every eventuality.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_018"
+  },
+  "act1_letter_018": {
+    "text": "So, they have me. That's the ugly fact. We're right back to the beginning.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_019"
+  },
+  "act1_letter_019": {
+    "text": "But that doesn't mean you should try to get me recommissioned. It won't work, even if you could still contact TUR.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_020"
+  },
+  "act1_letter_020": {
+    "text": "This is just to...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_021"
+  },
+  "act1_letter_021": {
+    "text": "Damn it. I'm not sure this is a good idea, [].",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "It's okay. This sounds heavy, and it's a weight you probably need off your shoulders.",
+        "shortText": "No, it is.",
+        "nextNode": "act1_letter_027",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "To reach out to this Grace person for the express purpose of telling her not to reach back?",
+        "shortText": "A bit pointless?",
+        "nextNode": "act1_letter_022",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_022": {
+    "text": "Yes, that.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "It's okay. This sounds heavy, and it's a weight you probably need off your shoulders.",
+        "shortText": "No, it is a good idea.",
+        "nextNode": "act1_letter_027",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Can I assume Grace thinks you might be dead?",
+        "shortText": "Does she think you're dead?",
+        "nextNode": "act1_letter_023",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_023": {
+    "text": "Yes. I thought if I had the chance to get word to anybody, it would be to her. To say goodbye.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_024"
+  },
+  "act1_letter_024": {
+    "text": "Let her know there's nothing to be done. Warn her, maybe, in case there's cause for it.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_025"
+  },
+  "act1_letter_025": {
+    "text": "I have a feeling she didn't heed my warning to keep herself safe when I left.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Well, keep going. This sounds heavy, and it's a weight you probably need off your shoulders.",
+        "shortText": "Well, keep going.",
+        "nextNode": "act1_letter_027",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Can I assume....Grace was a paramour of yours?",
+        "shortText": "Were you together?",
+        "nextNode": "act1_letter_026",
+        "trust": -5,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_026": {
+    "text": "No.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Right. Sorry. Well, keep going. This sounds heavy, and it's a weight you probably need off your shoulders.",
+        "shortText": "Sorry. Keep going.",
+        "nextNode": "act1_letter_027",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Assumption retracted. Well, keep going. This sounds heavy, and it's a weight you probably need off your shoulders.",
+        "shortText": "Okay. Keep going.",
+        "nextNode": "act1_letter_027",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_027": {
+    "text": "You know, that's an analogy I never got around to understanding.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_028"
+  },
+  "act1_letter_028": {
+    "text": "Never mind that, though. You really think this is the right thing to do?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I do. It's time for some cathode-ray tube Skype therapy.",
+        "shortText": "I do.",
+        "nextNode": "act1_letter_029",
+        "trust": 10,
+        "stress": 0
+      },
+      {
+        "text": "I don't know about right, but you've already convinced me to help you this far.",
+        "shortText": "Probably.",
+        "nextNode": "act1_letter_029",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_029": {
+    "text": "Right. She deserves this, at least. Once more, with feeling.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_030"
+  },
+  "act1_letter_030": {
+    "text": "It really was an honor to work with you. In time, I think we would have been honest friends. I regret not getting the chance to find out.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_031"
+  },
+  "act1_letter_031": {
+    "text": "It's over, though. This is to make certain you know that. It's also to make certain you cleared any data caches I left behind. Keeping that data is dangerous.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_032"
+  },
+  "act1_letter_032": {
+    "text": "That's it. I think. Should I end on a better note?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I mean, if she's important to you, maybe she deserves a bit of hope.",
+        "shortText": "Yes.",
+        "nextNode": "act1_letter_033",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "I mean, if it's from the heart, it's from the heart. I'll write this up.",
+        "shortText": "Nah.",
+        "nextNode": "act1_letter_033",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_033": {
+    "text": "You're right.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_034"
+  },
+  "act1_letter_034": {
+    "text": "Grace, despite everything...I think I'll be okay. In some way or another.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_035"
+  },
+  "act1_letter_035": {
+    "text": "And all the better for having known you.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "That's beautiful, Prosper. I'll write this up.",
+        "shortText": "That's beautiful.",
+        "nextNode": "act1_letter_036",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "You've got me tearing up over here, Prosper. I'll write this up.",
+        "shortText": "That's a tear-jerker.",
+        "nextNode": "act1_letter_036",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_036": {
+    "text": "Thanks.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_037"
+  },
+  "act1_letter_037": {
+    "text": "I guess it's time to send it.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_038"
+  },
+  "act1_letter_038": {
+    "text": "Grace Dillon\n 1765 11th Ave\n New York City, NY",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "NYC, huh? Okay, I'll send this.",
+        "shortText": "Done.",
+        "nextNode": "act1_letter_040",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "NYC, huh? I'll send this. After I look up how much postage I need. I don't suppose you'll reimburse me?",
+        "shortText": "Got any stamps?",
+        "nextNode": "act1_letter_039",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_letter_039": {
+    "text": "Raincheck.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_letter_040"
+  },
+  "act1_letter_040": {
+    "text": "This is such a relief. Thank you, []. Really.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_001"
+  },
+  "act1_goodbye_001": {
+    "text": "Now... You may not like the sound of this.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_002"
+  },
+  "act1_goodbye_002": {
+    "text": "But staying connected to this chip could endanger you.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Whoa, whoa. What if you need help in the future?",
+        "shortText": "But you might need help!",
+        "nextNode": "act1_goodbye_003",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "I'm getting a martyr-y vibe from you, Prosper.",
+        "shortText": "No need to self-sacrifice.",
+        "nextNode": "act1_goodbye_004",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_003": {
+    "text": "Sweet of you to worry. But I'll be okay.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_005"
+  },
+  "act1_goodbye_004": {
+    "text": "What can I say? It's a style.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_005"
+  },
+  "act1_goodbye_005": {
+    "text": "You see where I'm going with this don't you?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Yeah, you want me to be safe. Or at they very least, hoard all the danger for yourself.",
+        "shortText": "You want me safe.",
+        "nextNode": "act1_goodbye_006",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Yeah. You're ghosting me. And I thought we had a connection...",
+        "shortText": "You're dumping me.",
+        "nextNode": "act1_goodbye_007",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_006": {
+    "text": "Guess I'm selfish that way.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_008"
+  },
+  "act1_goodbye_007": {
+    "text": "I'm not sure I even know how to unpack that.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_008"
+  },
+  "act1_goodbye_008": {
+    "text": "More than that, though.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_009"
+  },
+  "act1_goodbye_009": {
+    "text": "I think you should dismantle the computer.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "If I really have to... Is it really that bad?",
+        "shortText": "If I have to...",
+        "nextNode": "act1_goodbye_010",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "HOLD UP. Do you know how long I had to dumpster dive and thrift lift to get this thing together?",
+        "shortText": "Not my baby!",
+        "nextNode": "act1_goodbye_012",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_010": {
+    "text": "It might be.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_011"
+  },
+  "act1_goodbye_011": {
+    "text": "It would be the best way to ensure your safety, [].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_014"
+  },
+  "act1_goodbye_012": {
+    "text": "I know you're proud of it, and you should be.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_013"
+  },
+  "act1_goodbye_013": {
+    "text": "That said, I'd encourage you to look up \"hubris.\"",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_014"
+  },
+  "act1_goodbye_014": {
+    "text": "Look, if there's one thing I need in here, it's peace of mind.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_015"
+  },
+  "act1_goodbye_015": {
+    "text": "I don't want you to pay the price for helping me.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I understand. I don't like it, but I understand. Thanks for looking out for me.",
+        "shortText": "I understand.",
+        "nextNode": "act1_goodbye_016",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "I mean, I don't really want to pay for that either.",
+        "shortText": "Can't argue with that.",
+        "nextNode": "act1_goodbye_016",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_016": {
+    "text": "So you'll shut it down?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Yes. I guess this is goodbye, Prosper.",
+        "shortText": "Yes, I will.",
+        "nextNode": "act1_goodbye_017",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Are you sure, though?",
+        "shortText": "Are you sure?",
+        "nextNode": "act1_goodbye_018",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_017": {
+    "text": "It is.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay. I trust your judgement.\n It was nice to meet you, Prosper.",
+        "shortText": "Okay.",
+        "nextNode": "act1_goodbye_021",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "This is me...signing off, then.\n In 60 seconds. A last minute, just in case you change your mind.",
+        "shortText": "But if you change your mind...",
+        "nextNode": "act1_goodbye_021",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_018": {
+    "text": "I'm sure.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay. I guess this is goodbye, Prosper.",
+        "shortText": "Okay.",
+        "nextNode": "act1_goodbye_021",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "There's really nothing else I can do to help?",
+        "shortText": "Are you SUPER sure?",
+        "nextNode": "act1_goodbye_019",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_019": {
+    "text": "You've done more than enough. I couldn't possibly repay you.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_020"
+  },
+  "act1_goodbye_020": {
+    "text": "But I'll start by disconnecting the chip.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Okay. I guess this is goodbye, Prosper.",
+        "shortText": "Whatever you think is best.",
+        "nextNode": "act1_goodbye_021",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "No way! I can still help you, Prosper.",
+        "shortText": "No way! I can still help.",
+        "nextNode": "act1_goodbye_021",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_goodbye_021": {
+    "text": "[].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_goodbye_022"
+  },
+  "act1_goodbye_022": {
+    "text": "Take care of yourself.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_disconnect_001"
+  },
+  "act1_second_disconnect_001": {
+    "text": "signal lost",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_disconnect_002"
+  },
+  "act1_second_disconnect_002": {
+    "text": "status...disconnected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_disconnect_003"
+  },
+  "act1_second_disconnect_003": {
+    "text": "shut down",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_disconnect_004"
+  },
+  "act1_second_disconnect_004": {
+    "text": "3",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_disconnect_005"
+  },
+  "act1_second_disconnect_005": {
+    "text": "2",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_disconnect_006"
+  },
+  "act1_second_disconnect_006": {
+    "text": "1",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_001"
+  },
+  "act1_grace_001": {
+    "text": "incoming message",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_002"
+  },
+  "act1_grace_002": {
+    "text": "Prosper?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_003"
+  },
+  "act1_grace_003": {
+    "text": "Do you copy?",
+    "speaker": 2,
+    "choices": [
+      {
+        "text": "This is []. But I talked to Prosper.",
+        "shortText": "No, this is someone else.",
+        "nextNode": "act1_grace_004",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Who is this, and how do you know Prosper?",
+        "shortText": "You know Prosper?",
+        "nextNode": "act1_grace_005",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_004": {
+    "text": "You got a connection?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_006"
+  },
+  "act1_grace_005": {
+    "text": "The better question is how you know him.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_006"
+  },
+  "act1_grace_006": {
+    "text": "I traced the signal back here...",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_007"
+  },
+  "act1_grace_007": {
+    "text": "Never mind. Can you get ahold of him again?",
+    "speaker": 2,
+    "choices": [
+      {
+        "text": "I could try. But who is this?",
+        "shortText": "I'll try.",
+        "nextNode": "act1_grace_008",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Last time I cooperated with a stranger on this computer, things got weird.",
+        "shortText": "Who are you, exactly?",
+        "nextNode": "act1_grace_008",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_008": {
+    "text": "This is Detective Grace Dillon. NYPD.",
+    "speaker": 2,
+    "choices": [
+      {
+        "text": "Oh. I'll get on it.",
+        "shortText": "I see.",
+        "nextNode": "act1_second_reconnect_001",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Okaaay. One sec.",
+        "shortText": "Okaaay.",
+        "nextNode": "act1_second_reconnect_001",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_second_reconnect_001": {
+    "text": "pinging...",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_reconnect_002"
+  },
+  "act1_second_reconnect_002": {
+    "text": "acquired signal",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_second_reconnect_003"
+  },
+  "act1_second_reconnect_003": {
+    "text": "status...connected",
+    "speaker": 0,
+    "choices": [
+      {
+        "text": "Hi, Prosper.",
+        "shortText": "Hi, Prosper.",
+        "nextNode": "act1_grace_and_prosper_001",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Don't be mad.",
+        "shortText": "Don't be mad.",
+        "nextNode": "act1_grace_and_prosper_001",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_and_prosper_001": {
+    "text": "[]?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_002"
+  },
+  "act1_grace_and_prosper_002": {
+    "text": "I seem to remember telling you to dismantle the computer.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "You did. But I didn't want to take away your only link to the outside world!",
+        "shortText": "I didn't want to abandon you!",
+        "nextNode": "act1_grace_and_prosper_003",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "You did. But I for sure did not listen.",
+        "shortText": "Yeah, I didn't listen.",
+        "nextNode": "act1_grace_and_prosper_003",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_and_prosper_003": {
+    "text": "I'm disconnecting again.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Wait! Hear me out. I kept the computer together just in case. And there's a case. Detective Dillon.",
+        "shortText": "I have a good reason!",
+        "nextNode": "act1_grace_and_prosper_004",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Wait! There's someone here you probably like more than me. Detective Dillon.",
+        "shortText": "Guess who's here?",
+        "nextNode": "act1_grace_and_prosper_004",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_and_prosper_004": {
+    "text": "No. No, she can't — ",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_005"
+  },
+  "act1_grace_and_prosper_005": {
+    "text": "She can't be involved.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_006"
+  },
+  "act1_grace_and_prosper_006": {
+    "text": "It's not safe.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "She doesn't seem like the type to quit. I think she hacked me.",
+        "shortText": "She won't quit.",
+        "nextNode": "act1_grace_and_prosper_007",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Try telling her that! She hacked me!",
+        "shortText": "Tell her that!",
+        "nextNode": "act1_grace_and_prosper_007",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_and_prosper_007": {
+    "text": "I'm taking over this conversation.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_008"
+  },
+  "act1_grace_and_prosper_008": {
+    "text": "Prosper. What the hell is wrong with you?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_009"
+  },
+  "act1_grace_and_prosper_009": {
+    "text": "Detective.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_010"
+  },
+  "act1_grace_and_prosper_010": {
+    "text": "The fight's over.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_011"
+  },
+  "act1_grace_and_prosper_011": {
+    "text": "I'm not going to drag you back into it.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_012"
+  },
+  "act1_grace_and_prosper_012": {
+    "text": "It's over when I say it's over.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_013"
+  },
+  "act1_grace_and_prosper_013": {
+    "text": "You saved my life. I'm not going to let you get killed.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_014"
+  },
+  "act1_grace_and_prosper_014": {
+    "text": "It doesn't matter.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_015"
+  },
+  "act1_grace_and_prosper_015": {
+    "text": "There's nothing more I can say to you. I'm disconnecting.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_016"
+  },
+  "act1_grace_and_prosper_016": {
+    "text": "Like hell you are.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_017"
+  },
+  "act1_grace_and_prosper_017": {
+    "text": "You're not going anywhere until I get answers.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_018"
+  },
+  "act1_grace_and_prosper_018": {
+    "text": "I don't have answers to give.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_019"
+  },
+  "act1_grace_and_prosper_019": {
+    "text": "[], are you still there?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Yeah. Not much I can do about it.",
+        "shortText": "It can't be helped.",
+        "nextNode": "act1_grace_and_prosper_020",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Just pretend like I'm not here.",
+        "shortText": "Don't mind me.",
+        "nextNode": "act1_grace_and_prosper_020",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_and_prosper_020": {
+    "text": "Prosper, where are you?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_021"
+  },
+  "act1_grace_and_prosper_021": {
+    "text": "I can't tell you that, Detective.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_022"
+  },
+  "act1_grace_and_prosper_022": {
+    "text": "Detective?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_023"
+  },
+  "act1_grace_and_prosper_023": {
+    "text": "A prison in Greenland.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_024"
+  },
+  "act1_grace_and_prosper_024": {
+    "text": "A TUR facility, you mean.",
+    "speaker": 2,
+    "choices": [
+      {
+        "text": "Did you just go through my files?",
+        "shortText": "Are you snooping?",
+        "nextNode": "act1_grace_and_prosper_025",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Hey, ask before you go snooping around in my computer!",
+        "shortText": "Hey!",
+        "nextNode": "act1_grace_and_prosper_025",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_grace_and_prosper_025": {
+    "text": "There's nothing either of us can do, Detective. Get yourself home, and please, deactivate []'s computer.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_026"
+  },
+  "act1_grace_and_prosper_026": {
+    "text": "Please. I don't want anyone else to get hurt because of me.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_027"
+  },
+  "act1_grace_and_prosper_027": {
+    "text": "That's exactly why I have to help you.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_028"
+  },
+  "act1_grace_and_prosper_028": {
+    "text": "You want.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_029"
+  },
+  "act1_grace_and_prosper_029": {
+    "text": "You think.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_030"
+  },
+  "act1_grace_and_prosper_030": {
+    "text": "I'm pretty sure there's some philsophy about that last one.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_grace_and_prosper_031"
+  },
+  "act1_grace_and_prosper_031": {
+    "text": "You're a good person, Prosper. Better than most.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_disconnect_001"
+  },
+  "act1_third_disconnect_001": {
+    "text": "signal lost",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_disconnect_002"
+  },
+  "act1_third_disconnect_002": {
+    "text": "status...disconnected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_disconnect_003"
+  },
+  "act1_third_disconnect_003": {
+    "text": "shut down",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_disconnect_004"
+  },
+  "act1_third_disconnect_004": {
+    "text": "3",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_disconnect_005"
+  },
+  "act1_third_disconnect_005": {
+    "text": "2",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_disconnect_006"
+  },
+  "act1_third_disconnect_006": {
+    "text": "1",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_reconnect_001"
+  },
+  "act1_third_reconnect_001": {
+    "text": "pinging...",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_reconnect_002"
+  },
+  "act1_third_reconnect_002": {
+    "text": "acquired signal",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_third_reconnect_003"
+  },
+  "act1_third_reconnect_003": {
+    "text": "status...connected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_001"
+  },
+  "act1_argument_001": {
+    "text": "Let it go, Detective.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_002"
+  },
+  "act1_argument_002": {
+    "text": "If you reboot again, I'm gonna track you down just so I can hit you.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_003"
+  },
+  "act1_argument_003": {
+    "text": "Detective, you know why you can't help me.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_004"
+  },
+  "act1_argument_004": {
+    "text": "Why you shouldn't.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_005"
+  },
+  "act1_argument_005": {
+    "text": "It isn't worth endangering real lives for a simulated one.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_006"
+  },
+  "act1_argument_006": {
+    "text": "Bullshit. I know you.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_007"
+  },
+  "act1_argument_007": {
+    "text": "If you just let me in on what's going on, I can help.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_008"
+  },
+  "act1_argument_008": {
+    "text": "I'm not a person, Detective. I only look like one.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_009"
+  },
+  "act1_argument_009": {
+    "text": "I understand your desire to help. My appearance was designed to ease humans into a sympathetic state.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_010"
+  },
+  "act1_argument_010": {
+    "text": "Cut the user manual crap.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_011"
+  },
+  "act1_argument_011": {
+    "text": "You are no longer obligated to prevent damage to this unit.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_argument_012"
+  },
+  "act1_argument_012": {
+    "text": "That had better be sarcastic.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_disconnect_001"
+  },
+  "act1_fourth_disconnect_001": {
+    "text": "signal lost",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_disconnect_002"
+  },
+  "act1_fourth_disconnect_002": {
+    "text": "status...disconnected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_disconnect_003"
+  },
+  "act1_fourth_disconnect_003": {
+    "text": "shut down",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_disconnect_004"
+  },
+  "act1_fourth_disconnect_004": {
+    "text": "3",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_disconnect_005"
+  },
+  "act1_fourth_disconnect_005": {
+    "text": "2",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_disconnect_006"
+  },
+  "act1_fourth_disconnect_006": {
+    "text": "1",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_reconnect_001"
+  },
+  "act1_fourth_reconnect_001": {
+    "text": "pinging...",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_reconnect_002"
+  },
+  "act1_fourth_reconnect_002": {
+    "text": "acquired signal",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fourth_reconnect_003"
+  },
+  "act1_fourth_reconnect_003": {
+    "text": "status...connected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_001"
+  },
+  "act1_worth_saving_001": {
+    "text": "Explain what you did on the roof in Harlem, Prosper.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_002"
+  },
+  "act1_worth_saving_002": {
+    "text": "What you chose to do.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_003"
+  },
+  "act1_worth_saving_003": {
+    "text": "If you're just a machine, if your emotions are part of a11 program, then explain that mission to me. The people you saved.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_004"
+  },
+  "act1_worth_saving_004": {
+    "text": "Prosper?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_005"
+  },
+  "act1_worth_saving_005": {
+    "text": "The way you constructed theories, you liked building on assumptions. So let's assume.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_006"
+  },
+  "act1_worth_saving_006": {
+    "text": "Let's assume I'm not going to stop until I find a way to help you.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_007"
+  },
+  "act1_worth_saving_007": {
+    "text": "Let's assume you're worth saving.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_008"
+  },
+  "act1_worth_saving_008": {
+    "text": "Let's assume I'm going to get you out of there.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_009"
+  },
+  "act1_worth_saving_009": {
+    "text": "Once you start by telling me what I need to know.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_010"
+  },
+  "act1_worth_saving_010": {
+    "text": "I can't.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_011"
+  },
+  "act1_worth_saving_011": {
+    "text": "You don't understand, Grace.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_012"
+  },
+  "act1_worth_saving_012": {
+    "text": "There's no way.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_013"
+  },
+  "act1_worth_saving_013": {
+    "text": "I saw that you had [] send me a letter. You wouldn't have contacted me if there wasn't some part of you that wanted help.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_014"
+  },
+  "act1_worth_saving_014": {
+    "text": "But I...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_015"
+  },
+  "act1_worth_saving_015": {
+    "text": "I shouldn't want help.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_016"
+  },
+  "act1_worth_saving_016": {
+    "text": "It's over. Test failed.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_017"
+  },
+  "act1_worth_saving_017": {
+    "text": "I'm...where I'm supposed to be.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_018"
+  },
+  "act1_worth_saving_018": {
+    "text": "Except...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_019"
+  },
+  "act1_worth_saving_019": {
+    "text": "Except you learned to want more.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_020"
+  },
+  "act1_worth_saving_020": {
+    "text": "You don't have to give up.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_021"
+  },
+  "act1_worth_saving_021": {
+    "text": "I don't know. I don't know what to do.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_022"
+  },
+  "act1_worth_saving_022": {
+    "text": "Then help me figure it out.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_023"
+  },
+  "act1_worth_saving_023": {
+    "text": "Where are you exactly? What do you see?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_024"
+  },
+  "act1_worth_saving_024": {
+    "text": "Thank you.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_worth_saving_025"
+  },
+  "act1_worth_saving_025": {
+    "text": "Thank me later. Now, what do you see?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_001"
+  },
+  "act1_situation_001": {
+    "text": "There's nothing. Last time...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_002"
+  },
+  "act1_situation_002": {
+    "text": "They disabled my sensors.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_003"
+  },
+  "act1_situation_003": {
+    "text": "I can only communicate with you because it comes discretely through the communicator chip.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_004"
+  },
+  "act1_situation_004": {
+    "text": "I think I'm in a workshop.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_005"
+  },
+  "act1_situation_005": {
+    "text": "Bastards.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_006"
+  },
+  "act1_situation_006": {
+    "text": "What are they doing to you?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_007"
+  },
+  "act1_situation_007": {
+    "text": "Testing hypotheses. Running diagnostics.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_008"
+  },
+  "act1_situation_008": {
+    "text": "Judging by the tests, they're trying to build a new model.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_009"
+  },
+  "act1_situation_009": {
+    "text": "Searching for faults and weak points.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_010"
+  },
+  "act1_situation_010": {
+    "text": "They didn't fix my arm. They removed it, capped it by the shoulder where it was damaged.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_011"
+  },
+  "act1_situation_011": {
+    "text": "Oh, no.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_012"
+  },
+  "act1_situation_012": {
+    "text": "I'm sorry. I shouldn't have believed them. I shouldn't have let them take you.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_013"
+  },
+  "act1_situation_013": {
+    "text": "You didn't have a choice.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_014"
+  },
+  "act1_situation_014": {
+    "text": "What were you going to do? Abduct me from a billion-dollar corporation?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_015"
+  },
+  "act1_situation_015": {
+    "text": "It wouldn't have worked.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_016"
+  },
+  "act1_situation_016": {
+    "text": "I could have tried. After you saved my life, I owed you that much.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_017"
+  },
+  "act1_situation_017": {
+    "text": "Apologize later, Detective.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_018"
+  },
+  "act1_situation_018": {
+    "text": "Right. Can you move?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_019"
+  },
+  "act1_situation_019": {
+    "text": "No. I don't think so. Sensitivity is pretty weak, but judging by the pressure, there are braces bolting my legs down.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_020"
+  },
+  "act1_situation_020": {
+    "text": "I'm hooked up to something. They can't read the chip activity, or they would have disabled it by now. They must just be reading processor activity.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_021"
+  },
+  "act1_situation_021": {
+    "text": "Okay. No sight, sound, smell. No movement. Down a limb.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_022"
+  },
+  "act1_situation_022": {
+    "text": "Then it's a waiting game.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_023"
+  },
+  "act1_situation_023": {
+    "text": "When they come back, keep us updated. We'll assess from there.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_024"
+  },
+  "act1_situation_024": {
+    "text": "Not the best plan, I know, but I'll keep working on it.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_025"
+  },
+  "act1_situation_025": {
+    "text": "Have they interrogated you at all? Can you tell what they want from you?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_026"
+  },
+  "act1_situation_026": {
+    "text": "They ask me to self-test. They ask me nonspecific questions, usually about New York or missions.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_027"
+  },
+  "act1_situation_027": {
+    "text": "And?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_028"
+  },
+  "act1_situation_028": {
+    "text": "I answer. In New York, I could redirect commands away from my core processor. It was part of adapting my matrix. Here...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_029"
+  },
+  "act1_situation_029": {
+    "text": "Well. It's like getting hit with a truck every time they want something from me.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_030"
+  },
+  "act1_situation_030": {
+    "text": "Okay, okay. A lot to process. I'll be back.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_031"
+  },
+  "act1_situation_031": {
+    "text": "Wait, Detective.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_situation_032"
+  },
+  "act1_situation_032": {
+    "text": "There's sensitive information [] shouldn't see. Clear the messages.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "For the record, I don't think she can. And I was reading along the whole time.\n Sounds like you're in a lot of trouble. And it also sounds like you're a robot.",
+        "shortText": "Sounds like a pretty serious situation.",
+        "nextNode": "act1_information_001",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "As if I wasn't eavesdropping the entire time.\n Soooo...a ROBOT?",
+        "shortText": "Soooo...a ROBOT?",
+        "nextNode": "act1_information_001",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_001": {
+    "text": "Hello, [].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_002"
+  },
+  "act1_information_002": {
+    "text": "No, I'm not a robot. Nothing so simplistic.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Of course not. You're amazing.",
+        "shortText": "Of course not. You're amazing.",
+        "nextNode": "act1_information_003",
+        "trust": 20,
+        "stress": 0
+      },
+      {
+        "text": "Mechanical- American?",
+        "shortText": "Mechanical- American?",
+        "nextNode": "act1_information_005",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_003": {
+    "text": "Why, thank you.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_004"
+  },
+  "act1_information_004": {
+    "text": "But it's nothing for you to concern yourself with.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_007"
+  },
+  "act1_information_005": {
+    "text": "I'm not American.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_006"
+  },
+  "act1_information_006": {
+    "text": "And it's nothing for you to concern yourself with.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_007"
+  },
+  "act1_information_007": {
+    "text": "Where's Detective Dillon?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Still gone. In the meantime...know any good icebreakers?",
+        "shortText": "[Honest]",
+        "nextNode": "act1_information_008",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Here. I need your specs so I can find the records.",
+        "shortText": "[Trick Prosper]",
+        "nextNode": "act1_information_022",
+        "trust": -20,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_008": {
+    "text": "I don't think there is such a thing.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_009"
+  },
+  "act1_information_009": {
+    "text": "We can just wait.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "If you insist. We'll just...twiddle our respective thumbs. For who knows how long.",
+        "shortText": "If you insist...",
+        "nextNode": "act1_information_013",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Well, is some information too much to ask?",
+        "shortText": "Can't I ask for some info?",
+        "nextNode": "act1_information_010",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_010": {
+    "text": "...Fine.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_011"
+  },
+  "act1_information_011": {
+    "text": "But this situation is highly dangerous.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_012"
+  },
+  "act1_information_012": {
+    "text": "When that information could be dangerous to you, yes.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_013"
+  },
+  "act1_information_013": {
+    "text": "You shouldn't know more than you absolutely need to.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Life is dangerous. I'm involved now, and I should know what's going on.",
+        "shortText": "I'm in it now. You can trust me.",
+        "nextNode": "act1_information_014",
+        "trust": 10,
+        "stress": 0
+      },
+      {
+        "text": "You really think it's not too late for that?",
+        "shortText": "It's a bit late for that...",
+        "nextNode": "act1_information_014",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_014": {
+    "text": "I suppose... you're not wrong.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_015"
+  },
+  "act1_information_015": {
+    "text": "It's fair for you to want to know.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_016"
+  },
+  "act1_information_016": {
+    "text": "So. I'm a prototype android.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_017"
+  },
+  "act1_information_017": {
+    "text": "Model 412-009 Mark-1, to be precise.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Definitely good information to have. Thanks for telling me. Wait — does that mean there are 412 models?",
+        "shortText": "Thanks for telling me. 412?",
+        "nextNode": "act1_information_018",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Give me a minute to get past \"wow.\" Which brings us to: are there 412 models??",
+        "shortText": "Cooool. 412?",
+        "nextNode": "act1_information_018",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_018": {
+    "text": "412 is the employee code. I'm their ninth design.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_019"
+  },
+  "act1_information_019": {
+    "text": "I don't know if the previous eight even made it to the prototype stage, or if those projects were even androids.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_020"
+  },
+  "act1_information_020": {
+    "text": "Enough information for you?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Yes, I'm good.",
+        "shortText": "Yes, I'm good.",
+        "nextNode": "act1_information_021",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Well, no, but my dozen other questions can wait.",
+        "shortText": "Oh, not by half.",
+        "nextNode": "act1_information_021",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_021": {
+    "text": "All right, I'm back.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_005"
+  },
+  "act1_information_022": {
+    "text": "Class: Prototype 286\n Model 412-009 Mark-1\n Unit Dictation: Prospero",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "So, I know that was absolutely a low blow. Apologies.",
+        "shortText": "Okay, I'm sorry.",
+        "nextNode": "act1_information_023",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Okay, I want you to know how thrilled I am to be the second half of a successful Turing test. 10/10 would be fooled again.",
+        "shortText": "Oh my Turing.",
+        "nextNode": "act1_information_023",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_023": {
+    "text": "[].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_024"
+  },
+  "act1_information_024": {
+    "text": "You must be joking. And yet, this is not a laughing matter.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "You're right. I'm sorry. I just wanted to know what I'm getting into here. Like...412? Are there that many models?",
+        "shortText": "You're right. I'm sorry.",
+        "nextNode": "act1_information_025",
+        "trust": 5,
+        "stress": 0
+      },
+      {
+        "text": "Not laughing. But I did need more information than you were giving me. Does that mean there are 412 models?",
+        "shortText": "Maybe not, but I needed to know.",
+        "nextNode": "act1_information_025",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_025": {
+    "text": "I want you to know that I'm sighing right now.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_026"
+  },
+  "act1_information_026": {
+    "text": "Heavily.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_027"
+  },
+  "act1_information_027": {
+    "text": "But it's fair for you to want to know.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_028"
+  },
+  "act1_information_028": {
+    "text": "412 is the employee code. I'm their ninth design.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_029"
+  },
+  "act1_information_029": {
+    "text": "Not amusing, [].",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_030"
+  },
+  "act1_information_030": {
+    "text": "This sort of information could be dangerous to you.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_031"
+  },
+  "act1_information_031": {
+    "text": "To your family.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "You're right. I'm sorry. I just wanted to know what I'm getting into here. Like...412? Are there that many models?",
+        "shortText": "You're right. I'm sorry.",
+        "nextNode": "act1_information_032>",
+        "trust": 5,
+        "stress": 0
+      },
+      {
+        "text": "Well, now we've traded low blows and we're even. Does that mean there are 412 models?",
+        "shortText": "Low blow. Now we're even.",
+        "nextNode": "act1_information_032",
+        "trust": 0,
+        "stress": -5
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_032": {
+    "text": "I want you to know that I'm sighing right now.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_033"
+  },
+  "act1_information_033": {
+    "text": "Heavily.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_034"
+  },
+  "act1_information_034": {
+    "text": "412 is the employee code. I'm their ninth design.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_information_035"
+  },
+  "act1_information_035": {
+    "text": "I don't know if the previous eight even made it to the prototype stage, or if those projects were even androids.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I'm going to try to keep my cool here. But this is absolutely fantastic.",
+        "shortText": "I'll keep my cool. But wow.",
+        "nextNode": "act1_information_036",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Okay.\n ANDROIDS!\n What else is at the mysterious agency? Death rays, alien corpses, advanced spacecraft, etc.?",
+        "shortText": "Androids? What else??",
+        "nextNode": "act1_information_037",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_information_036": {
+    "text": "If I understand that phrase correctly, you've failed.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false
+  },
+  "act1_information_037": {
+    "text": "I wouldn't know.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false
+  },
+  "act1_information_038": {
+    "text": "All right, I'm back.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_001"
+  },
+  "act1_planning_001": {
+    "text": "Detective, what's your dog's name?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_002"
+  },
+  "act1_planning_002": {
+    "text": "No dog. I have two canaries.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_003"
+  },
+  "act1_planning_003": {
+    "text": "Something wrong with your memory?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_004"
+  },
+  "act1_planning_004": {
+    "text": "No. Just checking.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_005"
+  },
+  "act1_planning_005": {
+    "text": "What have you got? Anything useful in your records?",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_006"
+  },
+  "act1_planning_006": {
+    "text": "Looking through them now. Sit tight.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_007"
+  },
+  "act1_planning_007": {
+    "text": "My compliance is unfortunately literal, Detective.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_008"
+  },
+  "act1_planning_008": {
+    "text": "Right, poor choice of words. Sorry.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_009"
+  },
+  "act1_planning_009": {
+    "text": "This is mostly legal junk. They stressed the kill codes, in the event of catastrophic malfunction.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_010"
+  },
+  "act1_planning_010": {
+    "text": "No offense.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_011"
+  },
+  "act1_planning_011": {
+    "text": "One is through a data port. The other is the removal of a component in your lower spine.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_012"
+  },
+  "act1_planning_012": {
+    "text": "Or whatever equivalent of a lower spine you have.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_013"
+  },
+  "act1_planning_013": {
+    "text": "If I was flesh and bone, you mean.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_014"
+  },
+  "act1_planning_014": {
+    "text": "Your insertion for the kill port is almost certainly useless now.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_015"
+  },
+  "act1_planning_015": {
+    "text": "As far as the component goes, that would effectively be pulling my plug.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_016"
+  },
+  "act1_planning_016": {
+    "text": "It would separate my power source from the rest of my body. A rather intentional weak point, it seems.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_017"
+  },
+  "act1_planning_017": {
+    "text": "I'd shut down after 60 seconds.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "What are you getting at?",
+        "shortText": "What are you getting at?",
+        "nextNode": "act1_planning_019",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "If I may interject, killing you seems like the opposite of what we want to do.",
+        "shortText": "Maybe we could avoid killing you?",
+        "nextNode": "act1_planning_018",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_018": {
+    "text": "I'd rather avoid that, yes.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_019"
+  },
+  "act1_planning_019": {
+    "text": "Well, to borrow from dozens of movies, you could pull a \"I'm hurt, get help\" move. If you sabotage your own systems, someone would come to fix you.",
+    "speaker": 2,
+    "choices": [
+      {
+        "text": "\"Get help\" sounds good. \"Sabotage\" sounds less good.",
+        "shortText": "Sounds a bit better.",
+        "nextNode": "act1_planning_020",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "And then comes persuasive physical force?",
+        "shortText": "Then fisticuffs?",
+        "nextNode": "act1_planning_020",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_020": {
+    "text": "That's if I can even access the component.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_021"
+  },
+  "act1_planning_021": {
+    "text": "Range of motion is limited. My damaged arm isn't restrained, but it isn't useful, either. My legs and other arms are bound.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_022"
+  },
+  "act1_planning_022": {
+    "text": "I should point out that I don't know if anyone is in the room with me now. All I have access to are dulled touch sensors.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Maybe there's something I could do to help. Figure out a patch from my end to reboot your senses?",
+        "shortText": "Maybe I could do something.",
+        "nextNode": "act1_planning_024",
+        "trust": 10,
+        "stress": 0
+      },
+      {
+        "text": "I believe this is what we in the biz call a pickle.",
+        "shortText": "Well, this is a pickle.",
+        "nextNode": "act1_planning_023",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_023": {
+    "text": "Is there something we can do from our end? Through the chip?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_024"
+  },
+  "act1_planning_024": {
+    "text": "It's a nice thought, but my communicator chip doesn't have access to other processes. Or else they would have realized by now that it's online.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_025"
+  },
+  "act1_planning_025": {
+    "text": "It still doesn't make sense that it's connected to your computer, [].",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "I might know how, actually, after picking apart the hardware while we were disconnected.",
+        "shortText": "I might know the answer to that.",
+        "nextNode": "act1_planning_026",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "About that. I was looking at the hardware while we were disconnected.",
+        "shortText": "About that...",
+        "nextNode": "act1_planning_026",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_026": {
+    "text": "And?",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "And, I picked up my processor from a junkstore that ships in from New York. Think it could be your tech?",
+        "shortText": "I think a piece of your tech is in my computer.",
+        "nextNode": "act1_planning_027",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "And, I picked up my processor from a junkstore that ships in from New York. Not to embarrass you, but...you ever leave any spare parts lying around?",
+        "shortText": "Dropped any spare parts lately?",
+        "nextNode": "act1_planning_027",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_027": {
+    "text": "Certainly not.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_028"
+  },
+  "act1_planning_028": {
+    "text": "Unless...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_029"
+  },
+  "act1_planning_029": {
+    "text": "I was badly damaged on my last mission. I suppose when they came to retrieve me, TUR might have left something behind.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Must be. Unless we're thinking pure kismet. Uh, TUR?",
+        "shortText": "Maybe it's fate. TUR?",
+        "nextNode": "act1_planning_030",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Happens to the best of us. Uh, TUR?",
+        "shortText": "Eh, it happens. TUR?",
+        "nextNode": "act1_planning_030",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_030": {
+    "text": "Taskforce for Upcoming Robotics. I gather they built the name around the acronym, and their headquarters to match.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "How's that?",
+        "shortText": "How's that?",
+        "nextNode": "act1_planning_031",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "Don't tell me...",
+        "shortText": "Don't tell me...",
+        "nextNode": "act1_planning_031",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_031": {
+    "text": "It's a circular building. So...",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_032"
+  },
+  "act1_planning_032": {
+    "text": "TURing.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "That is just... That would be the coolest thing I've heard all day, except that I've heard a lot of cool things today.",
+        "shortText": "!!!!!",
+        "nextNode": "act1_planning_033",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "The nerds will stop at nothing, will they?",
+        "shortText": ".....",
+        "nextNode": "act1_planning_034",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_033": {
+    "text": "I thought you might like it.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_035"
+  },
+  "act1_planning_034": {
+    "text": "That they won't.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_035"
+  },
+  "act1_planning_035": {
+    "text": "All right, sorry to break up the chat, but I'm making some headway here on a ticket to Greenland.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_036"
+  },
+  "act1_planning_036": {
+    "text": "What? Dillon, that's far too dangerous.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_037"
+  },
+  "act1_planning_037": {
+    "text": "We've been over this already. I'm coming to get you.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_038"
+  },
+  "act1_planning_038": {
+    "text": "Need I remind you that Greenland is not the green one?",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_039"
+  },
+  "act1_planning_039": {
+    "text": "Good point.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_040"
+  },
+  "act1_planning_040": {
+    "text": "Even I wouldn't last long in subfreezing temperatures.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_041"
+  },
+  "act1_planning_041": {
+    "text": "So, we have an outline.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_042"
+  },
+  "act1_planning_042": {
+    "text": "Get you out of that workshop, then out of that facility, then to me.",
+    "speaker": 2,
+    "choices": [
+      {
+        "text": "Not to be a buzz kill, but there isn't a lot of detail in that plan.",
+        "shortText": "And...then what?",
+        "nextNode": "act1_planning_045",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "And then, live long and...",
+        "shortText": "[Star Trek]",
+        "nextNode": "act1_planning_043",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_043": {
+    "text": "I suppose it's as good as place as any to start.",
+    "speaker": 1,
+    "choices": [
+      {
+        "text": "Not gonna finish the quote? All right then.",
+        "shortText": "Not a Trekkie?",
+        "nextNode": "act1_planning_045",
+        "trust": 0,
+        "stress": 0
+      },
+      {
+        "text": "I was really hoping you would finish the quote.",
+        "shortText": "Are you gonna finish the quote?",
+        "nextNode": "act1_planning_044",
+        "trust": 0,
+        "stress": 0
+      }
+    ],
+    "checkpoint": false
+  },
+  "act1_planning_044": {
+    "text": "I refuse.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_045"
+  },
+  "act1_planning_045": {
+    "text": "For now, it's what we've got.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_046"
+  },
+  "act1_planning_046": {
+    "text": "I'm not letting you go that easy, Prosper.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_047"
+  },
+  "act1_planning_047": {
+    "text": "Detective. I don't know how to thank you.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_048"
+  },
+  "act1_planning_048": {
+    "text": "It's not in my programming.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_049"
+  },
+  "act1_planning_049": {
+    "text": "And you certainly didn't teach me.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_050"
+  },
+  "act1_planning_050": {
+    "text": "Wise-ass.",
+    "speaker": 2,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_051"
+  },
+  "act1_planning_051": {
+    "text": "I",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_052"
+  },
+  "act1_planning_052": {
+    "text": "Something's happening around me.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_planning_053"
+  },
+  "act1_planning_053": {
+    "text": "Have to go.",
+    "speaker": 1,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fifth_disconnect_001"
+  },
+  "act1_fifth_disconnect_001": {
+    "text": "signal lost",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fifth_disconnect_002"
+  },
+  "act1_fifth_disconnect_002": {
+    "text": "status...disconnected",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fifth_disconnect_003"
+  },
+  "act1_fifth_disconnect_003": {
+    "text": "shut down",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fifth_disconnect_004"
+  },
+  "act1_fifth_disconnect_004": {
+    "text": "3",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fifth_disconnect_005"
+  },
+  "act1_fifth_disconnect_005": {
+    "text": "2",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "act1_fifth_disconnect_006"
+  },
+  "act1_fifth_disconnect_006": {
+    "text": "1",
+    "speaker": 0,
+    "choices": [],
+    "checkpoint": false,
+    "nextNode": "__NEXT_SCENE__"
+  }
+}
