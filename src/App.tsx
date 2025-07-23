@@ -1,13 +1,12 @@
 import act1Data from './assets/act1.json';
 import { useCallback } from 'react';
-import { ReactFlow, Panel, ReactFlowProvider, useNodesState, useEdgesState, type Edge, type Node } from '@xyflow/react';
-import '@xyflow/react/dist/style.css';
-import { StoryNode } from './components/StoryNode/StoryNode';
+import { ReactFlow, Panel, ReactFlowProvider, useNodesState, useEdgesState } from '@xyflow/react';
+import { ChoiceNode, StoryNode } from './components/nodes';
 import { Button } from './components/ui/button';
-import { CleanUpIcon } from './icons/CleanUpIcon';
+import { CleanUpIcon } from './components/icons';
 import { positionNodesAsTree } from './lib/graph-utils';
 import { generateNodesAndEdges } from './lib/react-flow-utils';
-import { ChoiceNode } from './components/ChoiceNode/ChoiceNode';
+import '@xyflow/react/dist/style.css';
 
 const { nodes: initialNodes, edges: initialEdges } = generateNodesAndEdges(act1Data);
 const nodeTypes = {
