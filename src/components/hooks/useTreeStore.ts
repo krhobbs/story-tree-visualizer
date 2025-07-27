@@ -9,7 +9,6 @@ import {
   type OnNodesChange,
   type OnEdgesChange,
   type OnConnect,
-  type ReactFlowInstance,
 } from "@xyflow/react";
 import { create } from "zustand";
 
