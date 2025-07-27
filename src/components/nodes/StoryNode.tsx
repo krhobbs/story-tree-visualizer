@@ -35,8 +35,8 @@ export function StoryNode(props: NodeProps<StoryNodeProps>) {
         <p className='text-neutral-400 text-sm'>id: {props.id}</p>
         <p className='text-neutral-400 text-sm'>checkpoint: {String(props.data.checkpoint)}</p>
       </div>
-      <Handle type={"source"} position={Position.Bottom} />
-      <Handle type={"target"} position={Position.Top} />
+      <Handle type={"source"} position={Position.Bottom} onConnect={(evt) => { console.log('On connect.', evt) }} />
+      <Handle type={"target"} position={Position.Top} onConnect={(evt) => { console.log('On connect.', evt) }} />
     </div>
   );
 }

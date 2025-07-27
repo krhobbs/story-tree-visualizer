@@ -7,9 +7,11 @@ export const positionNodesAsTree = (
   options: { direction: string } = { direction: "TB" }
 ): { nodes: Node[]; edges: Edge[] } => {
   const g = new Dagre.graphlib.Graph().setDefaultEdgeLabel(() => ({}));
-  g.setGraph({ rankdir: options.direction });
+  g.setGraph({ rankdir: options.direction, ranksep: 50, nodesep: 20 });
 
-  edges.forEach((edge) => g.setEdge(edge.source, edge.target));
+  edges.forEach((edge) => {
+    g.setEdge(edge.source, edge.target, { weight: edge.data?.weight ?? 1 });
+  });
   nodes.forEach((node) =>
     g.setNode(node.id, {
       ...node,
