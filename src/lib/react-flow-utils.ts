@@ -37,6 +37,9 @@ export const generateNodesAndEdges = (
           id: `${nodeId}-${choiceId}`,
           source: nodeId,
           target: choiceId,
+          data: {
+            weight: 500,
+          },
         });
         // Add edge from "Choice Node" to the next "Story Node"
         edges.push({
@@ -58,8 +61,12 @@ export const generateNodesAndEdges = (
 
   console.log(`Rendered ${totalNodes} nodes.`);
 
-  const { nodes: positionedNodes, edges: positionedEdges } =
-    positionNodesAsTree(nodes, edges);
+  if (localStorage.getItem("story-graph")) {
+    const { nodes: positionedNodes, edges: positionedEdges } =
+      positionNodesAsTree(nodes, edges);
 
-  return { nodes: positionedNodes, edges: positionedEdges };
+    return { nodes: positionedNodes, edges: positionedEdges };
+  }
+
+  return { nodes, edges };
 };
