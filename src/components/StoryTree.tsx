@@ -5,7 +5,8 @@ import { TopPanel } from "./panels";
 import { ChoiceNode, StoryNode } from "./nodes";
 import { useTreeStore, type TreeState } from './hooks/useTreeStore';
 import { useShallow } from 'zustand/shallow';
-import { downloadFile } from "@/lib/download-file";
+import { downloadFile, parseGraphToStoryNodes } from "@/lib/download-file";
+import { generateNodesAndEdges } from "@/lib/react-flow-utils";
 
 const selector = (state: TreeState) => ({
   nodes: state.nodes,
@@ -41,7 +42,7 @@ export function StoryTree() {
     if (treeInstance) {
       const treeData = JSON.stringify(treeInstance.toObject());
       localStorage.setItem('story-graph', treeData);
-      downloadFile(treeData);
+      downloadFile('story-graph.json', treeData);
     }
   }, [treeInstance]);
 
@@ -52,12 +53,25 @@ export function StoryTree() {
     }
   }, [treeInstance]);
 
+  const saveStoryData = useCallback(() => {
+    if (treeInstance) {
+      const storyData = JSON.stringify(parseGraphToStoryNodes(treeInstance.toObject()));
+      downloadFile('story-data.json', storyData);
+    }
+  }, [treeInstance]);
+
   const restoreFlow = useCallback((flow: ReactFlowJsonObject) => {
     const { x = 0, y = 0, zoom = 1 } = flow.viewport;
     setNodes(flow.nodes || []);
     setEdges(flow.edges || []);
     setViewport({ x, y, zoom });
   }, [setNodes, setEdges, useViewport]);
+
+  const importStoryData = useCallback((storyData: any) => {
+    const { nodes: importedNodes, edges: importedEdges } = generateNodesAndEdges(storyData);
+    setNodes(importedNodes);
+    setEdges(importedEdges);
+  }, [setNodes, setEdges]);
 
   return (
     <ReactFlow
@@ -74,7 +88,14 @@ export function StoryTree() {
       nodeTypes={nodeTypes}
       onInit={setTreeInstance}
     >
-      <TopPanel downloadStoryGraph={downloadStoryGraph} onLayout={onLayout} restoreFlow={restoreFlow} saveStoryGraph={saveStoryGraph} />
+      <TopPanel
+        downloadStoryGraph={downloadStoryGraph}
+        onLayout={onLayout}
+        restoreFlow={restoreFlow}
+        saveStoryGraph={saveStoryGraph}
+        saveStoryData={saveStoryData}
+        importStoryData={importStoryData}
+      />
       <Controls />
     </ReactFlow>
   );

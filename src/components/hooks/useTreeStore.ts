@@ -12,8 +12,8 @@ import {
 } from "@xyflow/react";
 import { create } from "zustand";
 
-const { nodes: initialNodes, edges: initialEdges } =
-  generateNodesAndEdges(act1Data);
+// const { nodes: initialNodes, edges: initialEdges } =
+//   generateNodesAndEdges(act1Data);
 
 export interface TreeState {
   nodes: Node[];
@@ -27,8 +27,8 @@ export interface TreeState {
 
 export const useTreeStore = create<TreeState>()((set, get) => {
   return {
-    nodes: initialNodes,
-    edges: initialEdges,
+    nodes: [],
+    edges: [],
     setNodes: (nodes) => {
       set({ nodes });
     },
