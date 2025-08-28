@@ -15,7 +15,7 @@ const speakerColor: Record<string, string> = {
 const style: CSSProperties = {
   padding: '10px',
   borderRadius: '5px',
-  width: '220px',
+  width: '260px',
   fontSize: '12px',
   color: 'black',
   border: '1px solid black',
@@ -34,6 +34,7 @@ export function StoryNode(props: NodeProps<StoryNodeProps>) {
       <div>
         <p className='text-neutral-400 text-sm'>id: {props.id}</p>
         <p className='text-neutral-400 text-sm'>checkpoint: {String(props.data.checkpoint)}</p>
+        <p className='text-neutral-400 text-sm'>nextNode: {props.data.nextNode ?? 'choices'}</p>
       </div>
       <Handle type={"source"} position={Position.Bottom} onConnect={(evt) => { console.log('On connect.', evt) }} />
       <Handle type={"target"} position={Position.Top} onConnect={(evt) => { console.log('On connect.', evt) }} />
