@@ -12,14 +12,14 @@ import type { XYPosition } from "@xyflow/react";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";
-import { useForm } from 'react-hook-form'
+import { useForm } from 'react-hook-form';
 import {
   Select,
   SelectContent,
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select"
+} from "@/components/ui/select";
 import { Form, FormControl, FormField, FormItem, FormLabel } from "./ui/form";
 import { Textarea } from "./ui/textarea";
 import { isChoiceNode, isStoryNode, type CustomNode } from "@/types/story-types";
@@ -28,11 +28,6 @@ interface NewNodeModalProps {
   nodeData: { position: XYPosition, fromNode: CustomNode } | null;
   onAdd: (newNode: CustomNode, fromNode: CustomNode) => void;
   closeModal: () => void;
-}
-
-interface NewStoryNodeData {
-  id: string;
-  type: 'storyNode',
 }
 
 interface NewNodeFormData {
@@ -81,6 +76,7 @@ export const NewNodeModal = ({ open, onOpenChange, nodeData, onAdd, closeModal }
         position: nodeData.position,
         type: data.type,
         data: {
+          nodeID: nodeData.fromNode.id,
           text: data.text,
           shortText: "",
           nextNode: ""

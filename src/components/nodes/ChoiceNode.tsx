@@ -1,4 +1,4 @@
-import type { StoryChoiceData } from "@/types/story-types";
+import type { ChoiceData } from "@/types/story-types";
 import { Handle, Position, type NodeProps, type Node } from "@xyflow/react";
 import type { CSSProperties } from "react";
 
@@ -12,7 +12,7 @@ const style: CSSProperties = {
   border: '1px solid red',
 }
 
-type ChoiceNodeProps = Node<StoryChoiceData>
+type ChoiceNodeProps = Node<ChoiceData>
 
 export function ChoiceNode(props: NodeProps<ChoiceNodeProps>) {
   return (
