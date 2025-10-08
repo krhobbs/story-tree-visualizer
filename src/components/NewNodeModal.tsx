@@ -8,7 +8,7 @@ import {
   DialogTitle
 } from "@/components/ui/dialog"
 import type { DialogProps } from "@radix-ui/react-dialog";
-import type { XYPosition } from "@xyflow/react";
+import { useReactFlow, type XYPosition } from "@xyflow/react";
 import { Input } from "./ui/input";
 import { Label } from "./ui/label";
 import { Button } from "./ui/button";
@@ -26,7 +26,7 @@ import { isChoiceNode, isStoryNode, type CustomNode } from "@/types/story-types"
 
 interface NewNodeModalProps {
   nodeData: { position: XYPosition, fromNode: CustomNode } | null;
-  onAdd: (newNode: CustomNode, fromNode: CustomNode) => void;
+  onAdd: (newNode: CustomNode, fromNode?: CustomNode) => void;
   closeModal: () => void;
 }
 
@@ -39,10 +39,13 @@ interface NewNodeFormData {
 }
 
 export const NewNodeModal = ({ open, onOpenChange, nodeData, onAdd, closeModal }: NewNodeModalProps & DialogProps) => {
+  const { screenToFlowPosition } = useReactFlow();
+  const defaultPosition = screenToFlowPosition({ x: window.innerWidth / 2, y: window.innerHeight / 5 });
+
   const allowChoiceNode = nodeData?.fromNode && isStoryNode(nodeData.fromNode) && !(nodeData.fromNode.data.nextNode);
   const allowStoryNode = (nodeData?.fromNode && isChoiceNode(nodeData.fromNode)) ||
     (nodeData?.fromNode && isStoryNode(nodeData.fromNode) &&
-      nodeData.fromNode.data.choices.length === 0 && !(nodeData.fromNode.data.nextNode));
+      nodeData.fromNode.data.choices.length === 0 && !(nodeData.fromNode.data.nextNode)) || (!nodeData);
 
   const form = useForm<NewNodeFormData>({
     defaultValues: {
@@ -54,13 +57,10 @@ export const NewNodeModal = ({ open, onOpenChange, nodeData, onAdd, closeModal }
   });
 
   const onSubmit = (data: NewNodeFormData) => {
-    if (!nodeData) {
-      return;
-    }
     if (data.type === 'storyNode') {
       onAdd({
         id: data.id,
-        position: nodeData?.position,
+        position: nodeData?.position ?? defaultPosition,
         type: data.type,
         data: {
           text: data.text,
@@ -68,12 +68,12 @@ export const NewNodeModal = ({ open, onOpenChange, nodeData, onAdd, closeModal }
           choices: [],
           checkpoint: false
         }
-      }, nodeData.fromNode);
+      }, nodeData?.fromNode);
     }
-    if (data.type === 'choiceNode') {
+    if (data.type === 'choiceNode' && nodeData?.fromNode) {
       onAdd({
         id: data.id,
-        position: nodeData.position,
+        position: nodeData?.position ?? defaultPosition,
         type: data.type,
         data: {
           nodeID: nodeData.fromNode.id,
@@ -81,7 +81,7 @@ export const NewNodeModal = ({ open, onOpenChange, nodeData, onAdd, closeModal }
           shortText: "",
           nextNode: ""
         }
-      }, nodeData.fromNode);
+      }, nodeData?.fromNode);
     }
     closeModal();
     form.reset();

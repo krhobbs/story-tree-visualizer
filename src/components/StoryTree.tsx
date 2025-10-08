@@ -19,6 +19,7 @@ import { downloadFile, parseGraphToStoryNodes } from "@/lib/download-file";
 import { generateNodesAndEdges } from "@/lib/react-flow-utils";
 import { NewNodeModal } from "./NewNodeModal";
 import { isChoiceNode, isStoryNode, type CustomNode } from "@/types/story-types";
+import { EditPanel } from "./panels/EditPanel";
 
 const selector = (state: TreeState) => ({
   nodes: state.nodes,
@@ -127,7 +128,11 @@ export function StoryTree() {
     updateNodeOnDeleteEdge(edges[0].source, edges[0].target);
   }, [])
 
-  const addNewNode = useCallback((newNode: CustomNode, fromNode: CustomNode) => {
+  const addNewNode = useCallback((newNode: CustomNode, fromNode: CustomNode | null | undefined) => {
+    if (fromNode === null || fromNode === undefined) {
+      addNode(newNode);
+      return;
+    }
     const edgeId = `${fromNode.id}-${newNode.id}`
 
     if (isChoiceNode(newNode) && isStoryNode(fromNode)) {
@@ -141,6 +146,11 @@ export function StoryTree() {
     addEdge({ id: edgeId, source: fromNode.id, target: newNode.id })
   }, [])
 
+  const onAddNewClick = useCallback(() => {
+    newNodeData.current = null;
+    setShowNewNodeModal(true);
+  }, []);
+
   return (
     <ReactFlow
       defaultViewport={{ x: 0, y: 150, zoom: 1 }}
@@ -151,7 +161,7 @@ export function StoryTree() {
       onConnect={onConnect}
       onConnectEnd={onConnectEnd}
       onEdgesDelete={onEdgesDelete}
-      onSelectionChange={(params) => { console.log(params.nodes) }}
+      // onSelectionChange={(params) => { console.log(params.nodes) }}
       panOnDrag={false}
       panOnScroll
       selectionOnDrag
@@ -167,6 +177,7 @@ export function StoryTree() {
         saveStoryData={saveStoryData}
         importStoryData={importStoryData}
       />
+      <EditPanel onLayout={onLayout} onAdd={onAddNewClick} />
       <NewNodeModal open={showNewNodeModal} onOpenChange={setShowNewNodeModal} nodeData={newNodeData.current} onAdd={addNewNode} closeModal={() => setShowNewNodeModal(false)} />
       <Controls />
     </ReactFlow>
